@@ -95,7 +95,7 @@ TEST_CASE(kiosk_lists_events_with_seats_left) {
 
 // change_card_tests.cpp - YOUR tests for YOUR change card.
 //
-// Write at least 2 tests, ideally 3:
+// Write at least 2 tests, ideally 3
 //   1. a success case for the NEW behavior on your card
 //   2. a failure or boundary case (full event, outage, missing phone number...)
 //   3. a check that an OLD promise still holds after your change
