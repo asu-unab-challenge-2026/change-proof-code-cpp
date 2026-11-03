@@ -1,0 +1,10 @@
+build/
+run_tests
+run_tests.exe
+campus_demo
+campus_demo.exe
+*.o
+*.obj
+.vscode/
+.DS_Store
+*.zip
