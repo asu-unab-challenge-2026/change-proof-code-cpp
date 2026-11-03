@@ -89,8 +89,8 @@ TEST_CASE(kiosk_lists_events_with_seats_left) {
     // When the lobby kiosk renders
     std::string screen = rig.kioskScreen();
     // Then both events appear with the right number of free seats
-    CHECK(screen.find("Robotics Night | seats left: 1") != std::string::npos);
-    CHECK(screen.find("Career Fair | seats left: 100") != std::string::npos);
+    CHECK(screen.find("Robotics Night | seats left:1") != std::string::npos);
+    CHECK(screen.find("Career Fair | seats left:100") != std::string::npos);
 }
 
 // change_card_tests.cpp - YOUR tests for YOUR change card.
