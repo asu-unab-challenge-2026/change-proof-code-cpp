@@ -1,0 +1,13 @@
+{
+  "name": "Change-Proof Code (C++17)",
+  "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-22.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+      ]
+    }
+  },
+  "postCreateCommand": "g++ -std=c++17 -Wall -Wextra -Isrc -Itests src/*.cpp tests/*.cpp -o run_tests && ./run_tests"
+}
